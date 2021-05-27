@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Healthcare">
-        <activity android:name=".CreateDataPasien"></activity>
-        <activity android:name=".CrudDataPasien" />
-        <activity android:name=".DashboardDokter" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.RiwayatKonsultasiActivity"></activity>
+        <activity android:name=".ui.CreateDataPasien" />
+        <activity android:name=".ui.CrudDataPasien" />
+        <activity android:name=".ui.DashboardDokter" />
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

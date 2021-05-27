@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/dokter_crud_db"
-    tools:context=".CrudDataPasien">
+    tools:context=".ui.CrudDataPasien">
 
     <TextView
         android:id="@+id/tv_datapasien"
